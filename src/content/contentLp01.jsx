@@ -37,8 +37,8 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Aprovado, mas <span className="text-primary">injustiçado</span>? Isso
-          não acaba aqui.
+          Foi <span className="text-primary">injustiçado</span> no concurso?
+          Isso ainda <span className="text-primary">pode mudar.</span>
         </h1>
       ),
       subtitle:
