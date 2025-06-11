@@ -30,7 +30,7 @@ function FullImg({ obs }) {
               <img
                 src={contentLp01.hero.logo.logoImg}
                 alt={contentLp01.hero.logo.alt}
-                className="ml-[5%] max-w-[50%] mt-[15%] p-[5px] bg-white rounded-lg"
+                className="ml-[5%] max-w-[30%] mt-[15%] p-[10px] bg-white rounded-lg"
               />
             </MotionDivDownToUp>
 
