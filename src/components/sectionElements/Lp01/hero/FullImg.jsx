@@ -30,7 +30,7 @@ function FullImg({ obs }) {
               <img
                 src={contentLp01.hero.logo.logoImg}
                 alt={contentLp01.hero.logo.alt}
-                className="ml-[5%] max-w-[30%] mt-[15%] p-[10px] bg-white rounded-lg"
+                className="ml-[5%] max-w-[30%] tablet1:max-w-[25%] mt-[15%] p-[10px] bg-white rounded-lg"
               />
             </MotionDivDownToUp>
 
@@ -103,7 +103,7 @@ function FullImg({ obs }) {
         </div>
       </div>
 
-      {/*-------- Versão para tablet1 pra frente -------- */}
+      {/*-------- Versão para desktop1 pra frente -------- */}
       <div
         className="hidden desktop1:flex bg-top font-mainFont bg-[size:100%_auto] phone2:bg-[size:100%_auto] phone3:bg-[size:100%_auto] tablet1:bg-cover bg-no-repeat h-auto"
         style={{
@@ -123,7 +123,7 @@ function FullImg({ obs }) {
                     <img
                       src={contentLp01.hero.logo.logoImg}
                       alt={contentLp01.hero.logo.alt}
-                      className=" max-w-[180px] phone3:max-w-[270px] tablet1:w-[280px] desktop1:mb-[60px] bg-bgSectionLight p-[10px] rounded-lg"
+                      className="  desktop1:max-w-[100px] desktop1:mb-[60px] bg-bgSectionLight p-[10px] rounded-lg"
                     />
                   </MotionDivDownToUp>
                   <div className="mt-[30%] phone3:mt-[35%] tablet1:mt-[30px] desktop1:mt-0">
