@@ -37,7 +37,8 @@ const contentLp01 = {
     textArea: {
       title: (
         <h1>
-          Foi <span className="text-primary">injustiçado</span> no concurso?
+          Foi <span className="text-primary">injustiçado</span> no concurso?{" "}
+          <br />
           Isso ainda <span className="text-primary">pode mudar.</span>
         </h1>
       ),
