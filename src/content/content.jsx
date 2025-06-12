@@ -56,7 +56,7 @@ export const infos = {
   name: "Jonas Araújo Advocacia",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "jonasaraujoadv.com.br", // Sem "www"
+  domain: "jonasaraujoadv.com", // Sem "www"
   phone: {
     ddd: "11",
     firstPart: "95393", // Apenas os 5 primeiros números (incluindo o 9)
